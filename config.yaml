@@ -1,18 +1,18 @@
 settings:
-  title: 'Status Page'
-  url: 'https://status-page.eidam.dev' # used for Slack messages
+  title: '十贰状态监测'
+  url: 'https://status.hehysh.eu.org' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
-  allmonitorsOperational: 'All Systems Operational'
-  notAllmonitorsOperational: 'Not All Systems Operational'
-  monitorLabelOperational: 'Operational'
-  monitorLabelNotOperational: 'Not Operational'
-  monitorLabelNoData: 'No data'
-  dayInHistogramNoData: 'No data'
-  dayInHistogramOperational: 'All good'
-  dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
+  allmonitorsOperational: '所有系统运行正常'
+  notAllmonitorsOperational: '部分系统出现故障'
+  monitorLabelOperational: '状态页可用'
+  monitorLabelNotOperational: '状态页出现故障'
+  monitorLabelNoData: '没有数据'
+  dayInHistogramNoData: '没有数据'
+  dayInHistogramOperational: '一切正常'
+  dayInHistogramNotOperational: ' 出现故障' # xx incident(s) recorded
 
 monitors:
 - id: Blog-v
